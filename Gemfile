@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#React gems
+gem 'webpacker'
+gem 'react-rails'
+
 #API-related gems
 gem 'grape'
 gem 'grape-swagger'

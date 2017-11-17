@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
   mount API::Base, at: "/"
-end  
+  root 'home#index'
+
+end
